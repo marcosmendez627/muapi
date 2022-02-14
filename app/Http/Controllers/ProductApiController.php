@@ -724,6 +724,13 @@ class ProductApiController extends Controller
      *     ),
      *     @OA\Parameter (
      *         in="query",
+     *         name="name",
+     *         example="mac",
+     *         description="Product name",
+     *         required=false
+     *     ),
+     *     @OA\Parameter (
+     *         in="query",
      *         name="min_price",
      *         example=100,
      *         description="Minimum price",
