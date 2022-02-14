@@ -9,6 +9,11 @@ use Illuminate\Support\Facades\Validator;
 
 class ExternalApiController extends Controller
 {
+    /**
+     * Import photos from https://jsonplaceholder.typicode.com/photos to database
+     *
+     * @return \Illuminate\Http\JsonResponse|void
+     */
     public function getPhotos()
     {
         $rules = [
